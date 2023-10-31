@@ -1,0 +1,578 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Aug16 ?        00:09:52 /sbin/init splash
+root           2       0  0 Aug16 ?        00:00:03 [kthreadd]
+root           3       2  0 Aug16 ?        00:00:00 [rcu_gp]
+root           4       2  0 Aug16 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 Aug16 ?        00:00:00 [slub_flushwq]
+root           6       2  0 Aug16 ?        00:00:00 [netns]
+root           8       2  0 Aug16 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 Aug16 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 Aug16 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 Aug16 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 Aug16 ?        00:00:24 [ksoftirqd/0]
+root          14       2  0 Aug16 ?        00:03:12 [rcu_sched]
+root          15       2  0 Aug16 ?        00:00:11 [migration/0]
+root          16       2  0 Aug16 ?        00:00:00 [idle_inject/0]
+root          18       2  0 Aug16 ?        00:00:00 [cpuhp/0]
+root          19       2  0 Aug16 ?        00:00:00 [cpuhp/1]
+root          20       2  0 Aug16 ?        00:00:00 [idle_inject/1]
+root          21       2  0 Aug16 ?        00:00:12 [migration/1]
+root          22       2  0 Aug16 ?        00:00:23 [ksoftirqd/1]
+root          24       2  0 Aug16 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          25       2  0 Aug16 ?        00:00:00 [kdevtmpfs]
+root          26       2  0 Aug16 ?        00:00:00 [inet_frag_wq]
+root          27       2  0 Aug16 ?        00:00:00 [kauditd]
+root          29       2  0 Aug16 ?        00:00:06 [khungtaskd]
+root          30       2  0 Aug16 ?        00:00:00 [oom_reaper]
+root          31       2  0 Aug16 ?        00:00:00 [writeback]
+root          32       2  0 Aug16 ?        00:01:54 [kcompactd0]
+root          33       2  0 Aug16 ?        00:00:00 [ksmd]
+root          34       2  0 Aug16 ?        00:00:00 [khugepaged]
+root          81       2  0 Aug16 ?        00:00:00 [kintegrityd]
+root          82       2  0 Aug16 ?        00:00:00 [kblockd]
+root          83       2  0 Aug16 ?        00:00:00 [blkcg_punt_bio]
+root          84       2  0 Aug16 ?        00:00:00 [tpm_dev_wq]
+root          85       2  0 Aug16 ?        00:00:00 [ata_sff]
+root          86       2  0 Aug16 ?        00:00:00 [md]
+root          87       2  0 Aug16 ?        00:00:00 [edac-poller]
+root          88       2  0 Aug16 ?        00:00:00 [devfreq_wq]
+root          89       2  0 Aug16 ?        00:00:00 [watchdogd]
+root          91       2  0 Aug16 ?        00:00:11 [kworker/0:1H-kblockd]
+root          93       2  0 Aug16 ?        00:00:10 [kswapd0]
+root          94       2  0 Aug16 ?        00:00:00 [ecryptfs-kthrea]
+root          96       2  0 Aug16 ?        00:00:00 [kthrotld]
+root          97       2  0 Aug16 ?        00:00:00 [irq/24-pciehp]
+root          98       2  0 Aug16 ?        00:00:00 [irq/25-pciehp]
+root          99       2  0 Aug16 ?        00:00:00 [irq/26-pciehp]
+root         100       2  0 Aug16 ?        00:00:00 [irq/27-pciehp]
+root         101       2  0 Aug16 ?        00:00:00 [irq/28-pciehp]
+root         102       2  0 Aug16 ?        00:00:00 [irq/29-pciehp]
+root         103       2  0 Aug16 ?        00:00:00 [irq/30-pciehp]
+root         104       2  0 Aug16 ?        00:00:00 [irq/31-pciehp]
+root         105       2  0 Aug16 ?        00:00:00 [irq/32-pciehp]
+root         106       2  0 Aug16 ?        00:00:00 [irq/33-pciehp]
+root         107       2  0 Aug16 ?        00:00:00 [irq/34-pciehp]
+root         108       2  0 Aug16 ?        00:00:00 [irq/35-pciehp]
+root         109       2  0 Aug16 ?        00:00:00 [irq/36-pciehp]
+root         110       2  0 Aug16 ?        00:00:00 [irq/37-pciehp]
+root         111       2  0 Aug16 ?        00:00:00 [irq/38-pciehp]
+root         112       2  0 Aug16 ?        00:00:00 [irq/39-pciehp]
+root         113       2  0 Aug16 ?        00:00:00 [irq/40-pciehp]
+root         114       2  0 Aug16 ?        00:00:00 [irq/41-pciehp]
+root         115       2  0 Aug16 ?        00:00:00 [irq/42-pciehp]
+root         116       2  0 Aug16 ?        00:00:00 [irq/43-pciehp]
+root         117       2  0 Aug16 ?        00:00:00 [irq/44-pciehp]
+root         118       2  0 Aug16 ?        00:00:00 [irq/45-pciehp]
+root         119       2  0 Aug16 ?        00:00:00 [irq/46-pciehp]
+root         120       2  0 Aug16 ?        00:00:00 [irq/47-pciehp]
+root         121       2  0 Aug16 ?        00:00:00 [irq/48-pciehp]
+root         122       2  0 Aug16 ?        00:00:00 [irq/49-pciehp]
+root         123       2  0 Aug16 ?        00:00:00 [irq/50-pciehp]
+root         124       2  0 Aug16 ?        00:00:00 [irq/51-pciehp]
+root         125       2  0 Aug16 ?        00:00:00 [irq/52-pciehp]
+root         126       2  0 Aug16 ?        00:00:00 [irq/53-pciehp]
+root         127       2  0 Aug16 ?        00:00:00 [irq/54-pciehp]
+root         128       2  0 Aug16 ?        00:00:00 [irq/55-pciehp]
+root         129       2  0 Aug16 ?        00:00:00 [acpi_thermal_pm]
+root         131       2  0 Aug16 ?        00:00:00 [scsi_eh_0]
+root         132       2  0 Aug16 ?        00:00:00 [scsi_tmf_0]
+root         133       2  0 Aug16 ?        00:00:00 [scsi_eh_1]
+root         134       2  0 Aug16 ?        00:00:00 [scsi_tmf_1]
+root         135       2  0 Aug16 ?        00:00:00 [vfio-irqfd-clea]
+root         137       2  0 Aug16 ?        00:00:00 [mld]
+root         138       2  0 Aug16 ?        00:00:00 [ipv6_addrconf]
+root         148       2  0 Aug16 ?        00:00:00 [kstrp]
+root         151       2  0 Aug16 ?        00:00:00 [zswap-shrink]
+root         158       2  0 Aug16 ?        00:00:00 [charger_manager]
+root         180       2  0 Aug16 ?        00:00:11 [kworker/1:1H-kblockd]
+root         203       2  0 Aug16 ?        00:00:00 [mpt_poll_0]
+root         204       2  0 Aug16 ?        00:00:00 [mpt/0]
+root         206       2  0 Aug16 ?        00:00:00 [scsi_eh_2]
+root         207       2  0 Aug16 ?        00:00:00 [scsi_tmf_2]
+root         208       2  0 Aug16 ?        00:00:00 [scsi_eh_3]
+root         209       2  0 Aug16 ?        00:00:00 [scsi_tmf_3]
+root         210       2  0 Aug16 ?        00:00:00 [scsi_eh_4]
+root         211       2  0 Aug16 ?        00:00:00 [scsi_tmf_4]
+root         212       2  0 Aug16 ?        00:00:00 [scsi_eh_5]
+root         213       2  0 Aug16 ?        00:00:00 [scsi_tmf_5]
+root         214       2  0 Aug16 ?        00:00:00 [scsi_eh_6]
+root         215       2  0 Aug16 ?        00:00:00 [scsi_tmf_6]
+root         216       2  0 Aug16 ?        00:00:00 [scsi_eh_7]
+root         217       2  0 Aug16 ?        00:00:00 [scsi_tmf_7]
+root         218       2  0 Aug16 ?        00:00:00 [scsi_eh_8]
+root         219       2  0 Aug16 ?        00:00:00 [scsi_tmf_8]
+root         220       2  0 Aug16 ?        00:00:00 [scsi_eh_9]
+root         221       2  0 Aug16 ?        00:00:00 [scsi_tmf_9]
+root         222       2  0 Aug16 ?        00:00:00 [scsi_eh_10]
+root         223       2  0 Aug16 ?        00:00:00 [scsi_tmf_10]
+root         224       2  0 Aug16 ?        00:00:00 [scsi_eh_11]
+root         225       2  0 Aug16 ?        00:00:00 [scsi_tmf_11]
+root         226       2  0 Aug16 ?        00:00:00 [scsi_eh_12]
+root         227       2  0 Aug16 ?        00:00:00 [scsi_tmf_12]
+root         228       2  0 Aug16 ?        00:00:00 [scsi_eh_13]
+root         229       2  0 Aug16 ?        00:00:00 [scsi_tmf_13]
+root         230       2  0 Aug16 ?        00:00:00 [scsi_eh_14]
+root         231       2  0 Aug16 ?        00:00:00 [scsi_tmf_14]
+root         232       2  0 Aug16 ?        00:00:00 [scsi_eh_15]
+root         233       2  0 Aug16 ?        00:00:00 [scsi_tmf_15]
+root         234       2  0 Aug16 ?        00:00:00 [scsi_eh_16]
+root         235       2  0 Aug16 ?        00:00:00 [scsi_tmf_16]
+root         236       2  0 Aug16 ?        00:00:00 [scsi_eh_17]
+root         237       2  0 Aug16 ?        00:00:00 [scsi_tmf_17]
+root         238       2  0 Aug16 ?        00:00:00 [scsi_eh_18]
+root         239       2  0 Aug16 ?        00:00:00 [scsi_tmf_18]
+root         240       2  0 Aug16 ?        00:00:00 [scsi_eh_19]
+root         241       2  0 Aug16 ?        00:00:00 [scsi_tmf_19]
+root         242       2  0 Aug16 ?        00:00:00 [scsi_eh_20]
+root         243       2  0 Aug16 ?        00:00:00 [scsi_tmf_20]
+root         244       2  0 Aug16 ?        00:00:00 [scsi_eh_21]
+root         245       2  0 Aug16 ?        00:00:00 [scsi_tmf_21]
+root         246       2  0 Aug16 ?        00:00:00 [scsi_eh_22]
+root         247       2  0 Aug16 ?        00:00:00 [scsi_tmf_22]
+root         248       2  0 Aug16 ?        00:00:00 [scsi_eh_23]
+root         249       2  0 Aug16 ?        00:00:00 [scsi_tmf_23]
+root         250       2  0 Aug16 ?        00:00:00 [scsi_eh_24]
+root         251       2  0 Aug16 ?        00:00:00 [scsi_tmf_24]
+root         252       2  0 Aug16 ?        00:00:00 [scsi_eh_25]
+root         253       2  0 Aug16 ?        00:00:00 [scsi_tmf_25]
+root         254       2  0 Aug16 ?        00:00:00 [scsi_eh_26]
+root         255       2  0 Aug16 ?        00:00:00 [scsi_tmf_26]
+root         256       2  0 Aug16 ?        00:00:00 [scsi_eh_27]
+root         257       2  0 Aug16 ?        00:00:00 [scsi_tmf_27]
+root         258       2  0 Aug16 ?        00:00:00 [scsi_eh_28]
+root         259       2  0 Aug16 ?        00:00:00 [scsi_tmf_28]
+root         260       2  0 Aug16 ?        00:00:00 [scsi_eh_29]
+root         261       2  0 Aug16 ?        00:00:00 [scsi_tmf_29]
+root         262       2  0 Aug16 ?        00:00:00 [scsi_eh_30]
+root         263       2  0 Aug16 ?        00:00:00 [scsi_tmf_30]
+root         264       2  0 Aug16 ?        00:00:00 [scsi_eh_31]
+root         265       2  0 Aug16 ?        00:00:00 [scsi_tmf_31]
+root         293       2  0 Aug16 ?        00:00:00 [scsi_eh_32]
+root         294       2  0 Aug16 ?        00:00:00 [scsi_tmf_32]
+root         317       2  0 Aug16 ?        00:00:15 [jbd2/sda5-8]
+root         318       2  0 Aug16 ?        00:00:00 [ext4-rsv-conver]
+root         359       1  0 Aug16 ?        00:26:39 /lib/systemd/systemd-journald
+root         380       2  0 Aug16 ?        00:00:00 [rpciod]
+root         381       2  0 Aug16 ?        00:00:00 [xprtiod]
+root         397       1  0 Aug16 ?        00:00:06 /lib/systemd/systemd-udevd
+root         439       2  0 Aug16 ?        00:00:00 [ttm_swap]
+root         440       2  0 Aug16 ?        00:00:00 [irq/16-vmwgfx]
+root         441       2  0 Aug16 ?        00:00:00 [card0-crtc0]
+root         442       2  0 Aug16 ?        00:00:00 [card0-crtc1]
+root         443       2  0 Aug16 ?        00:00:00 [card0-crtc2]
+root         444       2  0 Aug16 ?        00:00:00 [card0-crtc3]
+root         445       2  0 Aug16 ?        00:00:00 [card0-crtc4]
+root         446       2  0 Aug16 ?        00:00:00 [card0-crtc5]
+root         447       2  0 Aug16 ?        00:00:00 [card0-crtc6]
+root         452       2  0 Aug16 ?        00:00:00 [card0-crtc7]
+root         480       2  0 Aug16 ?        00:00:00 [cryptd]
+root         490       1  0 Aug16 ?        00:00:00 /usr/sbin/rpc.gssd
+_rpc         491       1  0 Aug16 ?        00:00:04 /sbin/rpcbind -f -w
+systemd+     494       1  0 Aug16 ?        00:00:20 /lib/systemd/systemd-resolved
+systemd+     495       1  0 Aug16 ?        00:00:05 /lib/systemd/systemd-timesyncd
+root         525       2  0 Aug16 ?        00:00:00 [nfit]
+root         528       1  0 Aug16 ?        00:02:26 /usr/lib/accountsservice/accounts-daemon
+root         529       1  0 Aug16 ?        00:00:00 /usr/sbin/acpid
+avahi        532       1  0 Aug16 ?        00:08:53 avahi-daemon: running [cell05-cse.local]
+root         534       1  0 Aug16 ?        00:00:05 /usr/sbin/cron -f
+message+     539       1  0 Aug16 ?        00:04:58 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         540       1  0 Aug16 ?        00:10:58 /usr/sbin/NetworkManager --no-daemon
+root         584       1  0 Aug16 ?        00:02:09 /usr/sbin/irqbalance --foreground
+root         587       1  0 Aug16 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         595       1  0 Aug16 ?        04:00:10 /usr/lib/policykit-1/polkitd --no-debug
+syslog       602       1  0 Aug16 ?        00:04:21 /usr/sbin/rsyslogd -n -iNONE
+root         604       1  0 Aug16 ?        00:00:00 /usr/libexec/switcheroo-control
+root         608       1  0 Aug16 ?        00:00:18 /lib/systemd/systemd-logind
+root         609       1  0 Aug16 ?        00:00:09 /usr/lib/udisks2/udisksd
+root         616       1  0 Aug16 ?        00:00:12 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        634     532  0 Aug16 ?        00:00:00 avahi-daemon: chroot helper
+root         650       1  0 Aug16 ?        00:00:03 /usr/sbin/ModemManager
+root         681       1  0 Aug16 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         684       1  0 Aug16 ?        00:00:00 /opt/pbis/sbin/lwsmd --start-as-daemon
+root         699     684  0 Aug16 ?        00:04:06 lw-container lwreg
+root         716       1  0 Aug16 ?        00:00:00 /usr/sbin/gdm3
+root         725     716  0 Aug16 ?        00:00:01 gdm-session-worker [pam/gdm-launch-environment]
+root         731     684  0 Aug16 ?        00:00:03 lw-container eventlog
+root         776     684  0 Aug16 ?        00:00:41 lw-container netlogon
+whoopsie     806       1  0 Aug16 ?        00:00:03 /usr/bin/whoopsie -f
+root         852       2  0 Aug16 ?        00:00:00 [nfsiod]
+gdm          856       1  0 Aug16 ?        00:00:05 /lib/systemd/systemd --user
+gdm          857     856  0 Aug16 ?        00:00:00 (sd-pam)
+gdm          862     856  0 Aug16 ?        00:00:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+gdm          864     856  0 Aug16 ?        00:00:00 /usr/libexec/tracker-miner-fs
+gdm          866     725  0 Aug16 tty1     00:00:00 /usr/lib/gdm3/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm          868     856  0 Aug16 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         871       2  0 Aug16 ?        00:00:00 [NFSv4 callback]
+rtkit        873       1  0 Aug16 ?        00:00:39 /usr/libexec/rtkit-daemon
+root         876     684  0 Aug16 ?        00:00:00 lw-container lwio
+gdm          892     866  0 Aug16 tty1     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm          893     892  0 Aug16 tty1     00:00:00 dbus-daemon --nofork --print-address 4 --session
+gdm          898     892  0 Aug16 tty1     00:00:02 /usr/libexec/gnome-session-binary --systemd --autostart /usr/share/gdm/greeter/autostart
+gdm          903     856  0 Aug16 ?        00:00:00 /usr/libexec/gvfsd
+root         904     684  1 Aug16 ?        13:00:24 lw-container lsass
+gdm          936     856  0 Aug16 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/125/gvfs -f -o big_writes
+gdm          943     856  0 Aug16 ?        00:00:15 /usr/libexec/gvfs-udisks2-volume-monitor
+gdm          961     856  0 Aug16 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gdm          969     856  0 Aug16 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+gdm          974     856  0 Aug16 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+gdm          978     856  0 Aug16 ?        00:00:02 /usr/libexec/goa-daemon
+gdm          989     898  0 Aug16 tty1     00:21:57 /usr/bin/gnome-shell
+root         999     684  0 Aug16 ?        00:00:00 lw-container reapsysl
+gdm         1028     856  0 Aug16 ?        00:00:05 /usr/libexec/goa-identity-service
+gdm         1036     856  0 Aug16 ?        00:01:24 /usr/libexec/gvfs-afc-volume-monitor
+root        1043       1  0 Aug16 ?        00:00:02 /usr/lib/upower/upowerd
+kernoops    1053       1  0 Aug16 ?        00:02:25 /usr/sbin/kerneloops --test
+kernoops    1056       1  0 Aug16 ?        00:02:25 /usr/sbin/kerneloops
+root        1057       1  0 Aug16 ?        00:00:02 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+gdm         1086       1  0 Aug16 tty1     00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm         1091    1086  0 Aug16 tty1     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm         1094     989  0 Aug16 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/125/.mutter-Xwaylandauth.O9EJ91 -listen 4 -listen 5 -displayfd 6 -listen 7
+gdm         1112       1  0 Aug16 tty1     00:00:00 /usr/libexec/xdg-permission-store
+gdm         1128       1  0 Aug16 tty1     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         1129       1  0 Aug16 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm         1130     898  0 Aug16 tty1     00:00:06 /usr/libexec/gsd-sharing
+gdm         1131     898  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-wacom
+gdm         1136     898  0 Aug16 tty1     00:00:15 /usr/libexec/gsd-color
+gdm         1139     898  0 Aug16 tty1     00:00:01 /usr/libexec/gsd-keyboard
+gdm         1140     898  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-print-notifications
+gdm         1146     898  0 Aug16 tty1     00:00:02 /usr/libexec/gsd-rfkill
+gdm         1148     898  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-smartcard
+gdm         1151     898  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-datetime
+gdm         1156     898  0 Aug16 tty1     00:00:01 /usr/libexec/gsd-media-keys
+gdm         1167     898  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm         1169     898  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-sound
+gdm         1175     898  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+gdm         1178     898  0 Aug16 tty1     00:01:27 /usr/libexec/gsd-housekeeping
+gdm         1181     898  0 Aug16 tty1     00:00:01 /usr/libexec/gsd-power
+gdm         1203       1  0 Aug16 tty1     00:00:00 /usr/libexec/gsd-printer
+gdm         1244     989  0 Aug16 tty1     00:00:00 ibus-daemon --panel disable -r --xim
+gdm         1250    1244  0 Aug16 tty1     00:00:00 /usr/libexec/ibus-memconf
+gdm         1252       1  0 Aug16 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         1257       1  0 Aug16 tty1     00:00:00 /usr/libexec/ibus-portal
+colord      1261       1  0 Aug16 ?        00:00:00 /usr/libexec/colord
+gdm         1269    1244  0 Aug16 tty1     00:00:00 /usr/libexec/ibus-engine-simple
+root       15590       2  0 Aug17 ?        00:00:00 [xfsalloc]
+root       15591       2  0 Aug17 ?        00:00:00 [xfs_mru_cache]
+root       15594       2  0 Aug17 ?        00:00:00 [jfsIO]
+root       15595       2  0 Aug17 ?        00:00:00 [jfsCommit]
+root       15596       2  0 Aug17 ?        00:00:00 [jfsCommit]
+root       15597       2  0 Aug17 ?        00:00:00 [jfsSync]
+gdm        52952     856  0 Aug22 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root      583199       1  0 Sep14 ?        00:00:00 /usr/bin/VGAuthService
+root      583200       1  0 Sep14 ?        00:12:47 /usr/bin/vmtoolsd
+zs0167    721619       1  0 Sep19 ?        00:00:02 /lib/systemd/systemd --user
+zs0167    721620  721619  0 Sep19 ?        00:00:00 (sd-pam)
+zs0167    721625  721619  0 Sep19 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+zs0167    721627  721619  0 Sep19 ?        00:00:00 /usr/libexec/tracker-miner-fs
+zs0167    721636  721619  0 Sep19 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+zs0167    721664  721619  0 Sep19 ?        00:00:00 /usr/libexec/gvfsd
+zs0167    721669  721619  0 Sep19 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633249780/gvfs -f -o big_writes
+zs0167    721671  721619  0 Sep19 ?        00:00:04 /usr/libexec/gvfs-udisks2-volume-monitor
+zs0167    721696  721619  0 Sep19 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+zs0167    721702  721619  0 Sep19 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+zs0167    721709  721619  0 Sep19 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+zs0167    721714  721619  0 Sep19 ?        00:00:25 /usr/libexec/goa-daemon
+zs0167    721737  721619  0 Sep19 ?        00:00:01 /usr/libexec/goa-identity-service
+zs0167    721738  721619  0 Sep19 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+zs0167    721747  721619  0 Sep19 ?        00:00:10 /usr/libexec/gvfs-afc-volume-monitor
+zs0167    721767  721619  0 Sep19 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root      724401    1057  0 Sep19 ?        00:00:00 sshd: zs0167 [priv]
+zs0167    724468  724401  0 Sep19 ?        00:00:01 sshd: zs0167@notty
+zs0167    724469  724468  0 Sep19 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1079160       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+root     1079162       1  0 00:00 ?        00:00:02 /usr/sbin/cups-browsed
+vd0353   1088962       1  0 09:02 ?        00:00:00 /lib/systemd/systemd --user
+vd0353   1088964 1088962  0 09:02 ?        00:00:00 (sd-pam)
+vd0353   1088969 1088962  0 09:02 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+vd0353   1088971 1088962  0 09:02 ?        00:00:00 /usr/libexec/tracker-miner-fs
+vd0353   1088973 1088962  0 09:02 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+vd0353   1089008 1088962  0 09:02 ?        00:00:00 /usr/libexec/gvfsd
+vd0353   1089013 1088962  0 09:02 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633313170/gvfs -f -o big_writes
+vd0353   1089014 1088962  0 09:02 ?        00:00:01 /usr/libexec/gvfs-udisks2-volume-monitor
+vd0353   1089032 1088962  0 09:02 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+vd0353   1089038 1088962  0 09:02 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+vd0353   1089043 1088962  0 09:02 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+vd0353   1089050 1088962  0 09:02 ?        00:00:01 /usr/libexec/goa-daemon
+vd0353   1089079 1088962  0 09:02 ?        00:00:00 /usr/libexec/goa-identity-service
+vd0353   1089083 1088962  0 09:02 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+vd0353   1089090 1088962  0 09:02 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+vd0353   1101113 1088962  0 10:23 ?        00:00:00 /usr/libexec/gvfsd-metadata
+acs0473  1110762       1  0 11:47 ?        00:00:02 /lib/systemd/systemd --user
+acs0473  1110766 1110762  0 11:47 ?        00:00:00 (sd-pam)
+acs0473  1110773 1110762  0 11:47 ?        00:00:00 /usr/libexec/tracker-miner-fs
+acs0473  1110790 1110762  0 11:47 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+acs0473  1110819 1110762  0 11:47 ?        00:00:00 /usr/libexec/gvfsd
+acs0473  1110826 1110762  0 11:47 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633299027/gvfs -f -o big_writes
+acs0473  1110827 1110762  0 11:47 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+acs0473  1110865 1110762  0 11:47 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+acs0473  1110869 1110762  0 11:47 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+acs0473  1110873 1110762  0 11:47 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+acs0473  1110877 1110762  0 11:47 ?        00:00:00 /usr/libexec/goa-daemon
+acs0473  1110886 1110762  0 11:47 ?        00:00:00 /usr/libexec/goa-identity-service
+acs0473  1110891 1110762  0 11:47 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+acs0473  1110896 1110762  0 11:47 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+heo0024  1121082       1  0 13:01 ?        00:00:01 /lib/systemd/systemd --user
+heo0024  1121083 1121082  0 13:01 ?        00:00:00 (sd-pam)
+heo0024  1121098 1121082  0 13:01 ?        00:00:00 /usr/libexec/tracker-miner-fs
+heo0024  1121102 1121082  0 13:01 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+heo0024  1121150 1121082  0 13:01 ?        00:00:00 /usr/libexec/gvfsd
+heo0024  1121161 1121082  0 13:01 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633228073/gvfs -f -o big_writes
+heo0024  1121167 1121082  0 13:01 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+heo0024  1121180 1121082  0 13:01 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+heo0024  1121184 1121082  0 13:01 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+heo0024  1121188 1121082  0 13:01 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+heo0024  1121192 1121082  0 13:01 ?        00:00:00 /usr/libexec/goa-daemon
+heo0024  1121199 1121082  0 13:01 ?        00:00:00 /usr/libexec/goa-identity-service
+heo0024  1121203 1121082  0 13:01 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+heo0024  1121210 1121082  0 13:01 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+root     1129085    1057  0 14:11 ?        00:00:00 sshd: agr0156 [priv]
+agr0156  1129094       1  0 14:11 ?        00:00:01 /lib/systemd/systemd --user
+agr0156  1129095 1129094  0 14:11 ?        00:00:00 (sd-pam)
+agr0156  1129102 1129094  0 14:11 ?        00:00:00 /usr/libexec/tracker-miner-fs
+agr0156  1129105 1129094  0 14:11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+agr0156  1129147 1129094  0 14:11 ?        00:00:00 /usr/libexec/gvfsd
+agr0156  1129155 1129094  0 14:11 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633655965/gvfs -f -o big_writes
+agr0156  1129172 1129094  0 14:11 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+agr0156  1129190 1129085  0 14:11 ?        00:00:00 sshd: agr0156@pts/0
+agr0156  1129192 1129094  0 14:11 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+agr0156  1129196 1129094  0 14:11 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+agr0156  1129200 1129094  0 14:11 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+agr0156  1129204 1129094  0 14:11 ?        00:00:00 /usr/libexec/goa-daemon
+agr0156  1129211 1129094  0 14:11 ?        00:00:00 /usr/libexec/goa-identity-service
+agr0156  1129215 1129094  0 14:11 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+agr0156  1129222 1129094  0 14:11 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+agr0156  1129237 1129190  0 14:11 pts/0    00:00:00 -bash
+agr0156  1129868 1129094  0 14:21 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root     1131387    1057  0 14:28 ?        00:00:00 sshd: ap1847 [priv]
+ap1847   1131399       1  0 14:28 ?        00:00:01 /lib/systemd/systemd --user
+ap1847   1131400 1131399  0 14:28 ?        00:00:00 (sd-pam)
+ap1847   1131407 1131399  0 14:28 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ap1847   1131416 1131399  0 14:28 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ap1847   1131444 1131399  0 14:28 ?        00:00:00 /usr/libexec/gvfsd
+ap1847   1131458 1131399  0 14:28 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633362078/gvfs -f -o big_writes
+ap1847   1131466 1131399  0 14:28 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ap1847   1131517 1131387  0 14:28 ?        00:00:01 sshd: ap1847@pts/4
+ap1847   1131519 1131399  0 14:28 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ap1847   1131523 1131399  0 14:28 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ap1847   1131527 1131399  0 14:28 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ap1847   1131531 1131399  0 14:28 ?        00:00:00 /usr/libexec/goa-daemon
+ap1847   1131539 1131399  0 14:28 ?        00:00:00 /usr/libexec/goa-identity-service
+ap1847   1131544 1131399  0 14:28 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+ap1847   1131549 1131399  0 14:28 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+ap1847   1131565 1131517  0 14:28 pts/4    00:00:00 -bash
+root     1133413    1057  0 14:42 ?        00:00:00 sshd: hc0608 [priv]
+hc0608   1133451       1  0 14:43 ?        00:00:01 /lib/systemd/systemd --user
+hc0608   1133453 1133451  0 14:43 ?        00:00:00 (sd-pam)
+hc0608   1133460 1133451  0 14:43 ?        00:00:00 /usr/libexec/tracker-miner-fs
+hc0608   1133481 1133451  0 14:43 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+hc0608   1133511 1133451  0 14:43 ?        00:00:00 /usr/libexec/gvfsd
+hc0608   1133520 1133451  0 14:43 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633336880/gvfs -f -o big_writes
+hc0608   1133524 1133451  0 14:43 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+hc0608   1133543 1133413  0 14:43 ?        00:00:00 sshd: hc0608@pts/2
+hc0608   1133552 1133451  0 14:43 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+hc0608   1133557 1133451  0 14:43 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+hc0608   1133561 1133451  0 14:43 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+hc0608   1133565 1133451  0 14:43 ?        00:00:00 /usr/libexec/goa-daemon
+hc0608   1133574 1133451  0 14:43 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+hc0608   1133575 1133451  0 14:43 ?        00:00:00 /usr/libexec/goa-identity-service
+hc0608   1133583 1133451  0 14:43 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+hc0608   1133599 1133543  0 14:43 pts/2    00:00:00 -bash
+root     1133621    1057  0 14:43 ?        00:00:00 sshd: hc0608 [priv]
+hc0608   1133678 1133621  0 14:43 ?        00:00:00 sshd: hc0608@notty
+hc0608   1133679 1133678  0 14:43 ?        00:00:00 /usr/lib/openssh/sftp-server
+hc0608   1134363 1133451  0 14:50 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root     1134476    1057  0 14:53 ?        00:00:00 sshd: hc0608 [priv]
+hc0608   1134534 1134476  0 14:53 ?        00:00:00 sshd: hc0608@notty
+hc0608   1134537 1134534  0 14:53 ?        00:00:00 /usr/lib/openssh/sftp-server
+ap1847   1135736 1131399  0 15:01 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root     1136926       2  0 15:11 ?        00:00:06 [kworker/u256:3-nfsiod]
+root     1139670    1057  0 15:28 ?        00:00:00 sshd: vd0353 [priv]
+vd0353   1139733 1139670  0 15:28 ?        00:00:00 sshd: vd0353@notty
+vd0353   1139743 1139733  0 15:28 ?        00:00:00 /usr/lib/openssh/sftp-server
+agr0156  1140237 1129237  0 15:29 pts/0    00:00:00 bash
+root     1140478       2  0 15:33 ?        00:00:05 [kworker/u256:0-nfsiod]
+root     1143781    1057  0 15:56 ?        00:00:00 sshd: arh0442 [priv]
+arh0442  1143793       1  0 15:56 ?        00:00:00 /lib/systemd/systemd --user
+arh0442  1143795 1143793  0 15:56 ?        00:00:00 (sd-pam)
+arh0442  1143802 1143793  0 15:56 ?        00:00:00 /usr/libexec/tracker-miner-fs
+arh0442  1143816 1143793  0 15:56 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+arh0442  1143840 1143793  0 15:56 ?        00:00:00 /usr/libexec/gvfsd
+arh0442  1143845 1143793  0 15:56 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633303329/gvfs -f -o big_writes
+arh0442  1143847 1143793  0 15:56 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+arh0442  1143885 1143781  0 15:56 ?        00:00:00 sshd: arh0442@notty
+arh0442  1143887 1143793  0 15:56 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+arh0442  1143896 1143793  0 15:56 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+arh0442  1143901 1143793  0 15:56 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+arh0442  1143905 1143793  0 15:56 ?        00:00:00 /usr/libexec/goa-daemon
+arh0442  1143911 1143793  0 15:56 ?        00:00:00 /usr/libexec/goa-identity-service
+arh0442  1143917 1143793  0 15:56 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+arh0442  1143923 1143793  0 15:56 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+arh0442  1143944 1143885  0 15:56 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1144109    1057  0 15:57 ?        00:00:00 sshd: jd0847 [priv]
+jd0847   1144148       1  0 15:57 ?        00:00:00 /lib/systemd/systemd --user
+jd0847   1144158 1144148  0 15:57 ?        00:00:00 (sd-pam)
+jd0847   1144165 1144148  0 15:57 ?        00:00:00 /usr/libexec/tracker-miner-fs
+jd0847   1144186 1144148  0 15:57 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jd0847   1144192 1144148  0 15:57 ?        00:00:00 /usr/libexec/gvfsd
+jd0847   1144207 1144148  0 15:57 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633296108/gvfs -f -o big_writes
+jd0847   1144210 1144148  0 15:57 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+jd0847   1144239 1144148  0 15:57 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+jd0847   1144249 1144148  0 15:57 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+jd0847   1144262 1144148  0 15:57 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+jd0847   1144267 1144148  0 15:57 ?        00:00:00 /usr/libexec/goa-daemon
+jd0847   1144268 1144109  0 15:57 ?        00:00:00 sshd: jd0847@notty
+jd0847   1144275 1144148  0 15:57 ?        00:00:00 /usr/libexec/goa-identity-service
+jd0847   1144280 1144148  0 15:57 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+jd0847   1144286 1144148  0 15:57 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+jd0847   1144305 1144268  0 15:57 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1144511    1057  0 15:58 ?        00:00:00 sshd: arh0442 [priv]
+arh0442  1144585 1144511  0 15:58 ?        00:00:00 sshd: arh0442@notty
+arh0442  1144592 1144585  0 15:58 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1145398    1057  0 16:03 ?        00:00:00 sshd: jd0847 [priv]
+jd0847   1145458 1145398  0 16:03 ?        00:00:00 sshd: jd0847@notty
+jd0847   1145460 1145458  0 16:03 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1145461    1057  0 16:03 ?        00:00:00 sshd: heo0024 [priv]
+heo0024  1145545 1145461  0 16:03 ?        00:00:00 sshd: heo0024@notty
+heo0024  1145546 1145545  0 16:03 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1145553    1057  0 16:03 ?        00:00:00 sshd: jap0637 [priv]
+jap0637  1145561       1  0 16:03 ?        00:00:00 /lib/systemd/systemd --user
+jap0637  1145562 1145561  0 16:04 ?        00:00:00 (sd-pam)
+jap0637  1145569 1145561  0 16:04 ?        00:00:00 /usr/libexec/tracker-miner-fs
+jap0637  1145585 1145561  0 16:04 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jap0637  1145605 1145561  0 16:04 ?        00:00:00 /usr/libexec/gvfsd
+jap0637  1145620 1145561  0 16:04 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633190327/gvfs -f -o big_writes
+jap0637  1145622 1145561  0 16:04 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+jap0637  1145657 1145553  0 16:04 ?        00:00:00 sshd: jap0637@pts/1
+jap0637  1145659 1145561  0 16:04 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+jap0637  1145663 1145561  0 16:04 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+jap0637  1145667 1145561  0 16:04 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+jap0637  1145671 1145561  0 16:04 ?        00:00:00 /usr/libexec/goa-daemon
+jap0637  1145679 1145561  0 16:04 ?        00:00:00 /usr/libexec/goa-identity-service
+jap0637  1145684 1145561  0 16:04 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+jap0637  1145690 1145561  0 16:04 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+jap0637  1145705 1145657  0 16:04 pts/1    00:00:00 -bash
+root     1145722    1057  0 16:04 ?        00:00:00 sshd: jap0637 [priv]
+jap0637  1145779 1145722  0 16:04 ?        00:00:00 sshd: jap0637@notty
+jap0637  1145780 1145779  0 16:04 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1147176    1057  0 16:20 ?        00:00:00 sshd: sm2730 [priv]
+sm2730   1147186       1  0 16:20 ?        00:00:00 /lib/systemd/systemd --user
+sm2730   1147189 1147186  0 16:20 ?        00:00:00 (sd-pam)
+sm2730   1147196 1147186  0 16:20 ?        00:00:00 /usr/libexec/tracker-miner-fs
+sm2730   1147198 1147186  0 16:20 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sm2730   1147236 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfsd
+sm2730   1147248 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633276495/gvfs -f -o big_writes
+sm2730   1147261 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+sm2730   1147286 1147176  0 16:20 ?        00:00:00 sshd: sm2730@pts/3
+sm2730   1147288 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+sm2730   1147292 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+sm2730   1147296 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+sm2730   1147300 1147186  0 16:20 ?        00:00:00 /usr/libexec/goa-daemon
+sm2730   1147308 1147186  0 16:20 ?        00:00:00 /usr/libexec/goa-identity-service
+sm2730   1147312 1147186  0 16:20 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+sm2730   1147319 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+sm2730   1147332 1147286  0 16:20 pts/3    00:00:00 -bash
+root     1147364       2  0 16:20 ?        00:00:00 [kworker/u257:1-xprtiod]
+sm2730   1147391 1147186  0 16:20 ?        00:00:00 /usr/libexec/gvfsd-metadata
+jap0637  1147681 1145561  0 16:24 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root     1148154    1057  0 16:30 ?        00:00:00 sshd: st0827 [priv]
+st0827   1148164       1  0 16:30 ?        00:00:00 /lib/systemd/systemd --user
+root     1148335       2  0 16:30 ?        00:00:00 [kworker/u257:2-xprtiod]
+st0827   1148338 1148164  0 16:30 ?        00:00:00 (sd-pam)
+st0827   1148346 1148164  0 16:30 ?        00:00:00 /usr/libexec/tracker-miner-fs
+st0827   1148366 1148164  0 16:30 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+st0827   1148395 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfsd
+st0827   1148403 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633659498/gvfs -f -o big_writes
+st0827   1148411 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+st0827   1148431 1148154  0 16:30 ?        00:00:00 sshd: st0827@pts/7
+st0827   1148439 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+st0827   1148443 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+st0827   1148447 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+st0827   1148451 1148164  0 16:30 ?        00:00:00 /usr/libexec/goa-daemon
+st0827   1148458 1148164  0 16:30 ?        00:00:00 /usr/libexec/goa-identity-service
+st0827   1148464 1148164  0 16:30 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+st0827   1148470 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+st0827   1148476 1148164  0 16:30 ?        00:00:02 /usr/libexec/tracker-store
+st0827   1148485 1148164  0 16:30 ?        00:00:00 /usr/libexec/gvfsd-metadata
+st0827   1148499 1148431  0 16:30 pts/7    00:00:00 -bash
+root     1148726    1057  0 16:32 ?        00:00:00 sshd: acs0473 [priv]
+acs0473  1148790 1148726  0 16:32 ?        00:00:00 sshd: acs0473@notty
+acs0473  1148810 1148790  0 16:32 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1149257    1057  0 16:35 ?        00:00:00 sshd: vd0353 [priv]
+vd0353   1149348 1149257  0 16:35 ?        00:00:00 sshd: vd0353@notty
+vd0353   1149367 1149348  0 16:35 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1149515       2  0 16:36 ?        00:00:01 [kworker/1:2-events]
+root     1149660    1057  0 16:37 ?        00:00:00 sshd: sm2730 [priv]
+sm2730   1149754 1149660  0 16:38 ?        00:00:00 sshd: sm2730@notty
+sm2730   1149777 1149754  0 16:38 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1149871    1057  0 16:38 ?        00:00:00 sshd: vd0353 [priv]
+vd0353   1149954 1149871  0 16:38 ?        00:00:00 sshd: vd0353@pts/5
+vd0353   1149956 1149954  0 16:38 pts/5    00:00:00 -bash
+jap0637  1151428 1145705  0 16:46 pts/1    00:00:00 script [options] filename
+jap0637  1151429 1151428  0 16:46 pts/6    00:00:00 bash -i
+root     1151682    1057  0 16:48 ?        00:00:00 sshd: aih0013 [priv]
+aih0013  1151712       1  0 16:48 ?        00:00:00 /lib/systemd/systemd --user
+root     1151713       2  0 16:48 ?        00:00:00 [kworker/0:1-events]
+aih0013  1151732 1151712  0 16:48 ?        00:00:00 (sd-pam)
+aih0013  1151744 1151712  0 16:48 ?        00:00:00 /usr/libexec/tracker-miner-fs
+aih0013  1151760 1151712  0 16:48 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+aih0013  1151776 1151712  0 16:48 ?        00:00:00 /usr/libexec/gvfsd
+aih0013  1151789 1151712  0 16:48 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633293165/gvfs -f -o big_writes
+aih0013  1151792 1151712  0 16:48 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+aih0013  1151828 1151682  0 16:48 ?        00:00:00 sshd: aih0013@pts/8
+aih0013  1151829 1151712  0 16:48 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+aih0013  1151833 1151712  0 16:48 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+aih0013  1151837 1151712  0 16:48 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+aih0013  1151841 1151712  0 16:48 ?        00:00:00 /usr/libexec/goa-daemon
+aih0013  1151849 1151712  0 16:48 ?        00:00:00 /usr/libexec/goa-identity-service
+aih0013  1151853 1151712  0 16:48 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+aih0013  1151859 1151712  0 16:48 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+aih0013  1151877 1151828  0 16:48 pts/8    00:00:00 -bash
+root     1152490       2  0 16:52 ?        00:00:00 [kworker/u256:4-ext4-rsv-conversion]
+root     1152589       2  0 16:52 ?        00:00:00 [kworker/1:0-rcu_gp]
+root     1152798    1057  0 16:54 ?        00:00:00 sshd: aih0013 [priv]
+aih0013  1152876 1152798  0 16:54 ?        00:00:00 sshd: aih0013@pts/9
+aih0013  1152895 1152876  0 16:54 pts/9    00:00:00 -bash
+root     1153002       2  0 16:55 ?        00:00:00 [kworker/0:0-events]
+aih0013  1153127 1152895  0 16:55 pts/9    00:00:00 script rec3.txt
+aih0013  1153128 1153127  0 16:55 pts/10   00:00:00 bash -i
+root     1153361    1057  0 16:57 ?        00:00:00 sshd: jr1336 [priv]
+root     1153371       2  0 16:57 ?        00:00:00 [kworker/1:1-events]
+jr1336   1153372       1  0 16:57 ?        00:00:00 /lib/systemd/systemd --user
+jr1336   1153392 1153372  0 16:57 ?        00:00:00 (sd-pam)
+jr1336   1153399 1153372  0 16:57 ?        00:00:00 /usr/libexec/tracker-miner-fs
+jr1336   1153408 1153372  0 16:57 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+jr1336   1153440 1153372  0 16:57 ?        00:00:00 /usr/libexec/gvfsd
+jr1336   1153449 1153372  0 16:57 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633260925/gvfs -f -o big_writes
+jr1336   1153453 1153372  0 16:57 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+jr1336   1153487 1153372  0 16:57 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+jr1336   1153492 1153372  0 16:57 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+jr1336   1153496 1153361  0 16:57 ?        00:00:00 sshd: jr1336@notty
+jr1336   1153497 1153372  0 16:57 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+jr1336   1153501 1153372  0 16:57 ?        00:00:00 /usr/libexec/goa-daemon
+jr1336   1153508 1153372  0 16:57 ?        00:00:00 /usr/libexec/goa-identity-service
+jr1336   1153510 1153372  0 16:57 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+jr1336   1153519 1153372  0 16:57 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+jr1336   1153535 1153496  0 16:57 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1153798    1057  0 16:59 ?        00:00:00 sshd: jr1336 [priv]
+jr1336   1153874 1153798  0 16:59 ?        00:00:00 sshd: jr1336@notty
+jr1336   1154200 1153874  0 16:59 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     1154228       2  0 17:00 ?        00:00:00 [kworker/u256:1-events_unbound]
+st0827   1154314 1148164  0 17:00 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+agr0156  1154315 1129094  0 17:00 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+aih0013  1154337 1151712  0 17:00 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+jr1336   1154340 1153372  0 17:00 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+root     1154379       2  0 17:01 ?        00:00:00 [kworker/0:2-events]
+jd0847   1154381 1144148  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+root     1154387       2  0 17:01 ?        00:00:00 [kworker/u256:2-events_freezable_power_]
+ap1847   1154409 1131399  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+acs0473  1154428 1110762  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+arh0442  1154429 1143793  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+sm2730   1154432 1147186  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+jap0637  1154433 1145561  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+heo0024  1154462 1121082  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+hc0608   1154463 1133599  0 17:01 pts/2    00:00:00 nano Lab5C.cpp
+st0827   1154482 1148499  0 17:01 pts/7    00:00:00 vi rec04B.sh
+ap1847   1154483 1131399  0 17:01 ?        00:00:00 /usr/libexec/tracker-store
+hc0608   1154514 1133451  0 17:01 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+st0827   1154516 1148164  2 17:01 ?        00:00:00 /usr/libexec/tracker-extract
+aih0013  1154533 1153128  0 17:01 pts/10   00:00:00 ps -ef
